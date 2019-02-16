@@ -2,7 +2,7 @@
   <div class="col-xs-12 col-sm-6">
     <div class="component" :style="{backgroundColor: randomColor()}">
       <h3>{{ moneda.nombre }}</h3>
-      <h5>Valor en CLP: {{moneda.valor}}</h5>
+      <h5>Valor en {{ moneda.unidad_medida }}: {{moneda.valor}}</h5>
     </div>
   </div>
 </template>
