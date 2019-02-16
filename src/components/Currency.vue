@@ -25,11 +25,7 @@ export default {
           return resp.data[key];
         });
         this.info = listaDeObjetos;
-        console.log(this.info);
       })
-      .catch(e => {
-        console.log(e);
-      });
   },
   components: {
     appMoneda: Moneda
